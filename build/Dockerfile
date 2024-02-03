@@ -18,7 +18,7 @@
 # run gulp tasks on the code with only docker installed
 
 # golang is based on debian:jessie
-FROM golang
+FROM golang:1.22rc2-bookworm
 
 # Install java and nodejs. go is already installed
 # A small tweak, apt-get update is already run by the nodejs setup script,
